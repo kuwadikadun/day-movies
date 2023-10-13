@@ -27,9 +27,12 @@
 }
 
 .movie-wrapper {
-  width: 500px;
+  width: 300px;
   background-color: antiquewhite;
   color: black;
+}
+.movie-image {
+  width: 100%;
 }
 
 .movie-search {
@@ -42,6 +45,7 @@
 }
 
 .movie-title {
+  padding: 5px;
   height: 90px;
   font-weight: bold;
 }

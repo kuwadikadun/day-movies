@@ -6,6 +6,10 @@ const App = () => {
   const [popularMovie, setPopularMovie] = useState([]);
 
   useEffect(() => {
+    document.title = "Day Movie";
+  }, []);
+
+  useEffect(() => {
     getMovieList().then((result) => {
       setPopularMovie(result);
     });
